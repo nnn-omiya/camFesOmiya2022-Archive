@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>大宮キャンフェス2022</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/access.css">
+    <link rel="icon" href="assets/image/favicon.ico" id="favicon">
+</head>
+<body>
+    <!--背景-->
+    <div class="background">
+        <div class="backImage"></div>
+        <div class="backImage"></div>
+        <div class="backImage"></div>
+        <div class="backImage"></div>
+        <!-- 画像の数だけdiv.backImageを置く -->
+    </div>
+    <!--ヘッダー-->
+    <div id="header">
+        <!--ロゴ・タイトル-->
+        <ul class="header_nav_left">
+            <a href="index.html">
+            <div class="header_logo"><img src="assets/image/logo_03.png"></div>
+            <li>大宮キャンフェス2022</a></li>
+        </ul>
+        <!--ハンバーガーメニュー用の記述-->
+        <input type="checkbox" id="toggle" class="btn_hide">
+        <label for="toggle" class="header_nav_btn"><span></span></label>
+        <!--ページ遷移のリンク-->
+            <ul class="header_nav_right">
+                <li><a href="booth_list.html">企画一覧</a></li>
+                <li><a href="timetable.html">タイムテーブル</a></li>
+                <li><a href="gallery.html">オンライン展示会</a></li>
+                <li><a href="streaming.html">配信</a></li>
+                <li><a href="access.html">会場アクセス</a></li>
+            </ul>
+    </div>
+    <div class="gras">
+        <img class="gras_left" src="assets/image/gras.png">
+        <img class="gras_right" src="assets/image/gras.png">
+    </div>
+     <!--本文-->
+     <div class="about">
+        <div class="other">
+          <h1>会場アクセス</h1>
+        </div>
+        <h2>キャンパスへのルート</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1WWq3EhiNCSvFTU5fjdzEMh_Nz6F04D0&ehbc=2E312F" width="640" height="480"></iframe>
+        </div>
+        <h2>会場内地図</h2>
+        <div class="map">
+            <img src="assets/image/stage_map.png">
+        </div>
+      </div>
+    <!--フッター-->
+    <footer>
+        <div class="footer_about">
+            <div class="footer_img">
+                <img class="footer_img_left" src="assets/image/footer_img_left.png">
+                <img class="footer_img_right" src="assets/image/footer_img_right.png">
+            </div>
+            <div class="footer_msg">
+                <p>大宮キャンフェス2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
